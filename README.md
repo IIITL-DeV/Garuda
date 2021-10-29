@@ -1,4 +1,3 @@
-# Garuda
 # Asset Discovery and Monitoring Tool
 ## What it does?
 The tool scans the network as specified and finds every user and computer in the Active Directory network. It is capable of scanning multiple AD networks both local and remote. It monitors the discovered devices and users using its agents which helps in identfying any malicious activity.
@@ -52,3 +51,12 @@ Only useful data is collected which might help in preventing any attack vector a
 In case of devices the data stored contains but not limited to the version of OS,last patch/hotfix,servicepack which if outdated might contain vulnerabilities, so giving chance to the admin to always be aware of the systems that are not updated.
 
 In case of monitoring, the devices accessed by user, along with the IP and MAC of the user, if he was using RDP to access the device. If any user's creds get compromised then the devices accessed by intruder can be easily narrowed down with the help of the tool and checked manually for any malicious files.
+## Working Screenshots
+![Dashboard](/Images/dashboard.png?raw=true)
+![Sites](/Images/sites.png?raw=true)
+![GitHub](/Images/github.png?raw=true)
+![Computers](/Images/computers_monitor.png?raw=true)
+![Info](/Images/info.png?raw=true)
+
+## Video Explanation
+[YouTube!](https://youtu.be/1JUFHZpdHf0)
